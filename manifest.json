@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Boituva Print Bot",
+  "version": "1.0.3",
+  "permissions": [
+    "alarms",
+    "tabs",
+    "downloads",
+    "notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Boituva Print Bot"
+  }
+}
